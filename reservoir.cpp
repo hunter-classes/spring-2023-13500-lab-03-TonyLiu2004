@@ -19,4 +19,5 @@ double get_east_storage(std::string date){
             return stod(eastSt);
         }
     }
+    return 0;
 }
