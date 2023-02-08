@@ -9,6 +9,6 @@ int main()
   std::cout << "max: " << get_max_east() << std::endl; 
   std::cout << "min: " << get_min_east() << std::endl;
   std::cout << "compare: " << compare_basins("05/10/2018") << std::endl;
-  reverse_oreder("05/10/2018","06/10/2018");
+  reverse_order("05/10/2018","06/10/2018");
   return 0;
 }
