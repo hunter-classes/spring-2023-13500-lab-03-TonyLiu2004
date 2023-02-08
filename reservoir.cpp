@@ -5,10 +5,7 @@
 #include <climits>
 #include <string>
 
-#include <reservoir.h>
-int test(){
-    return 1;
-}
+#include "reservoir.h"
 double get_east_storage(std::string date){
     std::ifstream fin("Current_Reservoir_Levels.tsv");
     std::string Idate;

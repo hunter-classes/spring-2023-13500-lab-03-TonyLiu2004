@@ -4,8 +4,7 @@
 
 int main()
 {
-  int a = test();
-  std::cout << a;//get_east_storage("05/10/2018");
+  std::cout << get_east_storage("05/10/2018");
   
   return 0;
 }
