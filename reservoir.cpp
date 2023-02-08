@@ -71,8 +71,7 @@ double get_max_east(){
         }else if(max < stof(eastSt)){
             max = stof(eastSt);
         }
-        return max;
-    }
+    }   
     fin.close();
     return max;
 }
