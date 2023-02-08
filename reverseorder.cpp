@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <climits>
 #include <vector>
-void reverse_oreder(std::string date1, std::string date2){
+void reverse_order(std::string date1, std::string date2){
     std::ifstream fin("Current_Reservoir_Levels.tsv");
     std::string date;
     std::string eastSt;
