@@ -4,7 +4,8 @@
 
 int main()
 {
-  std::cout << get_east_storage("05/10/2018");
-  
+  std::cout << "east storage: " << get_east_storage("05/10/2018") << std::endl;
+  std::cout << "max: " << get_max_east() << std::endl; 
+  std::cout << "min: " << get_min_east() << std::endl;
   return 0;
 }
