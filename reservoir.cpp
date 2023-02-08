@@ -45,6 +45,7 @@ double get_min_east(){
         }
         return min;
     }
+    return 0;
 }
 double get_max_east(){
     std::ifstream fin("Current_Reservoir_Levels.tsv");
@@ -69,4 +70,5 @@ double get_max_east(){
         }
         return max;
     }
+    return 0;
 }
