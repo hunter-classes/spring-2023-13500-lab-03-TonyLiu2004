@@ -54,21 +54,17 @@ double get_max_east(){
     std::string westSt;
     std::string westEl;
     float max = 0;
-    float min = 0;
     while(fin >> date >> eastSt >> eastEl >> westSt >> westEl) { 
         fin.ignore(INT_MAX, '\n'); 
-        if(min==0){
+        if(max==0){
             try{
-                min = stof(eastSt);
                 max = stof(eastSt);
             }
             catch(...){
                 continue;
             }
         }
-        if(min > stof(eastSt)){
-            min = stof(eastSt);
-        }else if(max < stof(eastSt)){
+        if(max < stof(eastSt)){
             max = stof(eastSt);
         }
     }   
